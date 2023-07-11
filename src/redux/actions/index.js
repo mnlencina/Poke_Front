@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { ADD_POKEMON_DETAIL, FILTER_DB, FILTER_TYPE, GET_ALLPOKEMON, GET_ALL_NAMES, GET_POKEMON_NAME, GET_POKEMON_TYPES, ORDER_ATAQUE, ORDER_NAME, POST_POKEMON, RESET_DETAIL } from '../actionsType';
-
+const urlDB = 'https://pokeback-production-1b7c.up.railway.app/'
 
 export function addAllPokemon(){
-  const endpoint = 'http://localhost:3001/pokemon'
+  const endpoint = `${urlDB}pokemon`  //'http://localhost:3001/pokemon'
   return async function (dispatch){
     let {data} = await axios(endpoint)
     dispatch({
@@ -14,7 +14,7 @@ export function addAllPokemon(){
 }
 
 export function addAllNames(){
-  const endpoint = 'http://localhost:3001/pokemon/allNames'
+  const endpoint = `${urlDB}pokemon/allNames`  //'http://localhost:3001/pokemon/allNames'
   return async function (dispatch){
     let {data} = await axios(endpoint)
     
@@ -26,7 +26,7 @@ export function addAllNames(){
 }
 
 export function addAllTypes(){
-  const endpoint = 'http://localhost:3001/tipo'
+  const endpoint = `${urlDB}tipo`  //'http://localhost:3001/tipo'
   return async function (dispatch){
     let {data} = await axios(endpoint)
     
@@ -38,7 +38,7 @@ export function addAllTypes(){
 }
 
 export function postPokemon(newPoke){
-  const endpoint = 'http://localhost:3001/pokemon'
+  const endpoint = `${urlDB}pokemon`   //'http://localhost:3001/pokemon'
   return async function (dispatch){
     try {
       const createPok = await axios.post(endpoint, newPoke);
@@ -53,7 +53,7 @@ export function postPokemon(newPoke){
 };
 
 export function addPokemon(names){
-  const endpoint =`http://localhost:3001/pokemon?name=`
+  const endpoint = `${urlDB}pokemon?name=`   //`http://localhost:3001/pokemon?name=`
   return async (dispatch) => {
     try {
       const allpok = await Promise.all(names.map(name => axios.get(`${endpoint}${name}`)))      
@@ -70,7 +70,7 @@ export function addPokemon(names){
 }
 
 export function addPokDetail(id){
-  const endpoint = 'http://localhost:3001/pokemon/'+id;
+  const endpoint = `${urlDB}pokemon/${id}`     //'http://localhost:3001/pokemon/'+id;
   return async (dispatch) => {
     try {
       const {data} = await axios.get(endpoint)

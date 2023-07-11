@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6451a8e2.css",
+    "main.js": "/static/js/main.39947ce5.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/videoSTART.mp4": "/static/media/videoSTART.7c4321e013bb86c05e7c.mp4",
+    "static/media/background_Pikachu.webp": "/static/media/background_Pikachu.e067ddc3d90bf14fb04c.webp",
+    "static/media/notIMG.gif": "/static/media/notIMG.5020c427db2fed73acc6.gif",
+    "static/media/Loading.gif": "/static/media/Loading.91a9699eae01ba2c8463.gif",
+    "static/media/PokLOGO.png": "/static/media/PokLOGO.35c6fb2d3ec848dc9298.png",
+    "static/media/Pokemon_Ice.png": "/static/media/Pokemon_Ice.cd9c45bd0ac57bfa28e9.png",
+    "static/media/Pokemon_Unknown.png": "/static/media/Pokemon_Unknown.8a742999a063f4c801b3.png",
+    "static/media/Pokemon_shadow.png": "/static/media/Pokemon_shadow.fee62a6cea9b18c99026.png",
+    "static/media/Pokemon_grass.png": "/static/media/Pokemon_grass.fd375ff92799894c8107.png",
+    "static/media/Pokemon_Dark.png": "/static/media/Pokemon_Dark.be9e91b386f5a5817103.png",
+    "static/media/Pokemon_Poison.png": "/static/media/Pokemon_Poison.dc0702ca2e488ff1f9d0.png",
+    "static/media/Pokemon_Rock.png": "/static/media/Pokemon_Rock.892fcbacd6e42cdcb939.png",
+    "static/media/Pokemon_Bug.png": "/static/media/Pokemon_Bug.0861b7030408ffcb0841.png",
+    "static/media/Pokemon_Fire.png": "/static/media/Pokemon_Fire.cb376306dbc6b9ccc30a.png",
+    "static/media/Pokemon_ghost.png": "/static/media/Pokemon_ghost.642c6e7d7233953c8cd2.png",
+    "static/media/Pokemon_Dragon.png": "/static/media/Pokemon_Dragon.b1fdf39e2fef3cbcab09.png",
+    "static/media/Pokemon_Normal.png": "/static/media/Pokemon_Normal.c8113a6ee225161f48f8.png",
+    "static/media/Pokemon_Psychic.png": "/static/media/Pokemon_Psychic.70f73c26f40f3cd37d65.png",
+    "static/media/Pokemon_Flying.png": "/static/media/Pokemon_Flying.94ebc61abcad82b56fe9.png",
+    "static/media/Pokemon_Fairy.png": "/static/media/Pokemon_Fairy.bab351bd60e7355b02c0.png",
+    "static/media/Pokemon_Steel.png": "/static/media/Pokemon_Steel.3aba5d3a67d3e9ceec83.png",
+    "static/media/Pokemon_Water.png": "/static/media/Pokemon_Water.e291deef34d49d87bb23.png",
+    "static/media/Pokemon_Ground.png": "/static/media/Pokemon_Ground.f20d5f170c50f79bff15.png",
+    "static/media/Pokemon_Electric.png": "/static/media/Pokemon_Electric.97a6a7564f3e71ab406c.png",
+    "static/media/Pokemon_Fighting.png": "/static/media/Pokemon_Fighting.66c83623484b37a2fa81.png",
+    "index.html": "/index.html",
+    "main.6451a8e2.css.map": "/static/css/main.6451a8e2.css.map",
+    "main.39947ce5.js.map": "/static/js/main.39947ce5.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6451a8e2.css",
+    "static/js/main.39947ce5.js"
+  ]
+}

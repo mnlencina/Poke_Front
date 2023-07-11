@@ -86,7 +86,7 @@
     aspect-ratio: 1.5/1;
     box-shadow: -17px -19px 20px #a7a930;
     background-image: conic-gradient(#a5a930, transparent, transparent, transparent, transparent, transparent, transparent, #a09e1c);
-    animation: rotate 4s linear infinite -2s;
+    /* animation: rotate 4s linear infinite -2s; */
   }
   
 .neonBtn::after {
